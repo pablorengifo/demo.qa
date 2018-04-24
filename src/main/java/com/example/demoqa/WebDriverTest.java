@@ -12,7 +12,7 @@ public class WebDriverTest {
 
     @Before
     public void setUp() {
-        System.setProperty("webdriver.gecko.driver", "linux/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "drivers/linux/geckodriver");
     }
 
     @Test
